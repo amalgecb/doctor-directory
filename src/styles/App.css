@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
